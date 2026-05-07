@@ -1,3 +1,3 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.Heart)
+    pins.servoWritePin(AnalogPin.P0, 90)
 })
